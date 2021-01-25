@@ -1,0 +1,6 @@
+names:
+  cat : 1
+  dog : 2
+num_classes: 2
+fine_tune_weights_path: ./yolov4.weights
+backup: ./output
