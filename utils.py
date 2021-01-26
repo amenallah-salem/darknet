@@ -2,7 +2,6 @@
 def imshow(path):
   import cv2
   import matplotlib.pyplot as plt
-  %matplotlib inline
 
   image = cv2.imread(path)
   height, width = image.shape[:2]
@@ -13,7 +12,7 @@ def imshow(path):
   plt.axis("off")
   plt.imshow(cv2.cvtColor(resized_image, cv2.COLOR_BGR2RGB))
   plt.show()
-
+'''
 # use this to upload files from drive 
 def upload():
   from google.colab import files
@@ -27,3 +26,4 @@ def upload():
 def download(path):
   from google.colab import files
   files.download(path)
+  '''
